@@ -4,61 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Finder</title>
-    <link rel="stylesheet" href="css.css">
-    <style>
-    
-</style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Recipe Finder</h1>
         <form id="search-form">
-            <input type="text" id="search-input" placeholder="Search for recipes" size="40">
-            <button type="button" onclick="searchRecipes()" class="search_button">Search</button>
+            <input type="text" id="search-input" placeholder="Search for Recipes" size="40" class="searchbar ">
+            <button type="button" class="search_button">Search</button>
         </form>
     </header>
     <main>
-        <form>
+    <div class="div_button">
         <center>
-            <button><a href="D:\fee\project\veg.htm" target="_top"><b id="type">Veg</b></a></button>
-            <button id="type">Non-Veg</button>
-            <button id="type">North Indian</button>
-            <button id="type">South Indian</button>
-            <button id="type">Breakfast</button>
-            <button id="type">Snacks</button>
-            <button id="type">Chinese</button>
+            <a href="veg.html" >Veg</a>
+            <a href="veg.html" >Non-Veg</a>
+            <a href="veg.html" >North Indian</a>
+            <a href="veg.html" >South Indian</a>
+            <a href="veg.html" >Breakfast</a>
+            <a href="veg.html" >Snacks</a>
+            <a href="veg.html" >Chinese</a>
         </center>
-        </form>
+    </div>
         <table>
         <tr>
             <td>
-                <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2009/08/aloo-paratha-recipe-4.jpg " style="height: 400px; width: 300px ;">
+                <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2009/08/aloo-paratha-recipe-4.jpg " class="food_img">
             </td>
-            <td>
-                <p>I. CLASSIC ALOO PARANTHA RECIPE-<br>MATERIAL REQUIRED:<br>1. Dough made from whole wheat flour: A basic dough is made with whole wheat flour (atta), salt, oil and water<br>
-                2. Mashed potato stuffing: Potatoes are boiled, peeled and then mashed.</p>
+            <td class="Material_required">
+                <h2>CLASSIC ALOO PARANTHA</h2>
+                <h4>Material Required:</h4>
+                <ol>
+                    <li>Dough made from whole wheat flour: A basic dough is made with whole wheat flour (atta), salt,oil and water</li>
+                    <li>Mashed potato stuffing: Potatoes are boiled, peeled and then mashed.</li>
+                </ol>
             </td>
         </tr>  
         <tr>
             <td>
-                <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/07/chana-masala-1.jpg" style="height: 400px; width: 300px;">
+                <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/07/chana-masala-1.jpg" class="food_img" >
             </td>
-            <td>
-                <p>II.CHANA MASALA RECIPE-<br>MATERIAL REQUIRED:<br>1. White Chickpeas<br>2. water<br>3. Dried Amla and Dry Pomegranate Seeds:The dried Amla gives dark colour to chole and little tang<br>4. half teaspoon salt<br>5. Chana masala powder</p>
+            <td class="Material_required">
+                <h2>CHANA MASALA</h2>
+                <h4>Material Required:</h4>
+                <ol>
+                    <li>White Chickpeas</li>
+                    <li>water</li>
+                    <li>Dried Amla and Dry Pomegranate Seeds:The dried Amla gives dark colour to chole and little tang</li>
+                    <li>half teaspoon salt</li>
+                    <li>Chana masala powder</li>
+                </ol>
             </td>
         </tr>
         <tr>
             <td>
-                <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2013/11/samosa-0.jpg"style="height: 400px; width: 300px;">
+                <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2013/11/samosa-0.jpg" class="food_img">
             </td>
+            <td class="Material_required">
+                <h2>SAMOSA</h2>
+                <h4>Material Required:</h4>
+                <ol>
+                    <li>2 cup all purpose flour</li>
+                    <li>5 boiled potato</li>
+                    <li>teaspoon coriander powder</li>
+                    <li>2 cup virgin olive oil</li>
+                    <li>1 teaspoon cashews</li>
+                    <li>salt as required</li>
+                    <li>2 tablespoon ghee</li>
+                    <li>1/4 cup water</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
             <td>
-                <p>III.SAMOSA RECIPE-<br>MATERIAL REEQUIRED:<br>1. </p>
+                <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2013/11/atte-ka-halwa-recipe22.jpg" class="food_img">
+            </td>
+            <td class="Material_required">
+                <h2>WHEAT HALWA-</h2>
+                <h4>Material Required:</h4>
+                <OL>
+                    <li>1 cup atta (whole wheat flour)</li>
+                    <li>2.½ cup Ghee (clarified butter)</li>
+                    <li>1 cup sugar or as required</li>
+                    <li>2 cups water</li>
+                    <li>1 tablespoon whole cashews</li>
+                </OL>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/lassi-recipe-1.jpg" class="food_img">
+            </td>
+            <td class="Material_required">
+                <h2>LASSI</h2>
+                <h4>Material Required:</h4>
+                <ol>
+                    <li>2 cups Curd - cold and fresh (yogurt)</li>
+                    <li>1 cup water or milk - cold or at room temperature</li>
+                    <li>4 to 5 tablespoons sugar or edible salt add as per taste</li>
+                    <li>1 teaspoon cardamom powder</li>
+                    <li>10 to 12 saffron strands</li>
+                    <li>6 to 8 ice cubes </li>
+                    <li>1 to 2 tablespoons chopped nuts</li>
+                </ol>
             </td>
         </tr>
     </table>
     </main>
     <footer>
-        <p>Recipe Finder</p>
+        <p style="font-size: larger;"> <b >Recipe Finder</b></p>
     </footer>
     
 </body>

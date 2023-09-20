@@ -94,4 +94,5 @@ a:hover{
     height: 400px;
     width: 300px ;
     margin-bottom: 0;
+    border-radius: 10px;
 }
